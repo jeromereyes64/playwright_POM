@@ -5,7 +5,7 @@ class BasePage {
     }
 
     /**
-     * Open base url from config
+     * Open base url from configfile.
      */
     async openUrl() {
         await this.page.goto('/');
